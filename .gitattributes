@@ -11,6 +11,7 @@
 *.asset merge=unityyamlmerge eol=lf
 *.meta merge=unityyamlmerge eol=lf
 *.controller merge=unityyamlmerge eol=lf
+
 ## git-lfs ##
 #Image
 *.jpg filter=lfs diff=lfs merge=lfs -text
@@ -48,3 +49,7 @@
 *.bc filter=lfs diff=lfs merge=lfs -text
 *.las filter=lfs diff=lfs merge=lfs -text
 *.dlis filter=lfs diff=lfs merge=lfs -text
+#Text
+*.txt filter=lfs diff=lfs merge=lfs -text
+#CSV
+*.csv filter=lfs diff=lfs merge=lfs -text
